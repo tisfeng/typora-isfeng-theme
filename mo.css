@@ -6,6 +6,7 @@ html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
   text-align: justify;
+  line-height: 1.5;
   overflow-x: hidden;
   color: #282c34;
   background-color: #fefefe;
@@ -52,7 +53,7 @@ content #write > h5.md-focus:before {
 
 #write h1,
 #write h2 {
-  text-align: center;
+  /* text-align: center; */
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -62,16 +63,16 @@ content #write > h5.md-focus:before {
 }
 
 #write h2 {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
 }
 
 #write h2:after {
   content: "";
   display: block;
-  width: 6.25rem;
+  width:  100%; /* 6.25rem; */
   height: 1px;
   margin: 0 auto;
-  border-bottom: 1px solid #2f2f2f;
+  border-bottom: 1px solid #f59241;
 }
 
 #write h3 {
@@ -412,8 +413,8 @@ h6 code {
 }
 
 code {
-  background-color: rgba(34, 37, 38, 0.05);
-  color: #e96900;
+  background-color: #fbe5e1;
+  color: #e25503;
   font-family: "Fira Code", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 500;
@@ -421,6 +422,13 @@ code {
   padding: 3px 4px 1px;
   border-radius: 4px;
 }
+
+/* code {
+  padding: 2px 4px;
+  color: #c0341d; #e96900;
+  background-color: #fbe5e1;
+  border-radius: 4px;
+} */
 
 /* strike */
 del {
