@@ -463,6 +463,7 @@ a img {
 /* code fences */
 .md-fences {
   font-family: "Fira Code", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.0rem;
   background-color: #222526;
   padding-top: 6px;
   padding-bottom: 6px;
