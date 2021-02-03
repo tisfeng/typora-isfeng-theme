@@ -463,7 +463,7 @@ a img {
 /* code fences */
 .md-fences {
   font-family: "Fira Code", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.0rem;
+  font-size: 0.9em;
   background-color: #222526;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -487,7 +487,7 @@ a img {
 }
 
 .md-fences span {
-  color: #abb2bf;
+  color: #eaeef5;
 }
 
 .md-fences .code-tooltip .ty-input {
