@@ -57,14 +57,16 @@ content #write > h5.md-focus:before {
   margin-bottom: 1rem;
 }
 
+/* h1 标题大小 */
 #write h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 #write h2 {
   font-size: 2.0rem;
 }
 
+/* h2 标题的下划线 */
 #write h2:after {
   content: "";
   display: block;
@@ -81,7 +83,7 @@ content #write > h5.md-focus:before {
 /* paragraph */
 p {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 /* ul ol */
