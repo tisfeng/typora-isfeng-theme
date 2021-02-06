@@ -767,9 +767,10 @@ a img {
   background-color: #fff;
 }
 
+/* 修改侧边栏字体 */
 #typora-sidebar #sidebar-content .sidebar-content-content .file-node-content {
-  line-height: 1.375rem;
-  font-size: 1rem;
+  line-height: 1.2rem;
+  font-size: 0.95rem;
   color: #282c34 !important;
 }
 
@@ -789,7 +790,7 @@ a img {
 }
 
 #typora-sidebar #sidebar-content #outline-content .no-collapse-outline .outline-item {
-  line-height: 1.375rem;
+  line-height: 1.2rem;
   font-size: 1rem;
 }
 
